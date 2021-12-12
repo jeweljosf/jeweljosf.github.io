@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<link rel="icon" type="image/png" href="fav.png">    <!--favicon image-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    <!--Used to control viewports shape and size-->
+<style>   
+body { background-image: url(ppp.png); 
+     }
+#wrapper { background-color: #FFFFFF;
+           max-width: 1280px;
+           color: #000066;
+		   background-color: #FFFFFF;
+           width: 80%;
+		   margin: auto;
+}
+header { padding-top: 10px;
+     font-family: Arial, sans-serif;
+	 text-align: center;
+	 background-color: #00a2e8;}
+nav ul ul { position: absolute; background-color: #000000; padding: 0; text-align: left; display: none;
+ }
+nav ul ul li { border: 1px solid #00005D;
+               display: block; width: 8em; padding-left: 1em; margin-left: 0;
+}
+nav li:hover ul { display: block; }	
+ul { list-style: none; }
+nav {  background-color: #000000; 
+	   letter-spacing: 0.1em;
+	   font-weight: bold;
+	   text-align: left; 
+	   padding-right: 2em;
+} 
+nav ul { list-style-type: none; 
+        margin: 0;
+}
+nav li { padding: 0.5em;
+      display: inline-block;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #d3dbeb;}
+h2 {font-family: Arial, sans-serif;
+	 text-align: center;}
+form {font-family: Arial, sans-serif; 
+       width: 600px; padding: 10px; }
+label { float: left; clear: left; display: block; 
+        width: 100px; padding-right: 10px;
+        margin-top: 10px; text-align: right; 
+		}
+input { display: block; margin-top: 10px; }
+input[type="submit"] { margin: auto; }
+</style>
+</head>
+<body>
+<div id="wrapper"> 
+<header><img src="ABsoft.png" alt="Comapny logo" width="400" height="105"></header> 
+<nav>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li style="color: #ffffff">Services &nabla;     <!--Inline css-->
+ <ul>
+  <li><a href="WD.html">Web Development</a></li>
+  <li><a href="DM.html">Digital Marketing</a></li>
+ </ul>
+ <li><a href="About.html">About</a></li>
+ <li><a href="Career.html">Career</a></li>
+ <li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<h2>Contact Us <img src="mail.png" alt="mailbox image" width="60" height="30"></h2>
+<h3>For More Information</h3>
+<ul>
+ <li><a href="mailto:absoft@gmal.com" target="_blank">Send mail</a></li>    <!--Using anchor tags for linking e-mail address-->
+ <li><a href="tel:+18073337722" target="_blank">Call Us</a></li>            <!--Using anchor tags for linking phone number-->
+ </ul>
+ <h3>For Latest Updates </h3>
+ <h4>Register : </h4>
+<form method="get">      <!--Using "form" to collect data/input from the user-->
+<label for="Name">Name:</label>
+<input type="text" name="Name" id="Name">
+<br><label for="Email">E-mail:</label>
+<input type="text" name="Email" id="Email"><br>
+<input type="submit" value="Submit" id="Submit">
+</form>
+<footer>
+ <p style="font-family: Arial, sans-serif; text-align: center; font-weight: bold; font-size: 15px">Copyright &copy; 2021 ABSoft.com All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>
